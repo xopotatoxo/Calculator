@@ -1,0 +1,60 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.operator, .evaluate, .negation {
+    background-color: orange;
+}
+
+.clear {
+    background-color: red;
+}
+
+.mainBox {
+    background-color: rgb(22, 21, 21);
+    padding: 10px;
+}
+
+.answerBox {
+    background-color: black;
+    width: 410px; 
+    height: 100px; 
+    padding: 10px; 
+    margin: 10px;
+    font-size: 40px;
+    color: white;
+    text-align: end;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box; 
+    overflow: hidden; 
+}
+
+button {
+    background-color: grey;
+    font-size: 20px;
+    padding: 30px;
+    margin: 5px;
+    flex-grow: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    text-decoration: none;
+}
+
+.firstRow, .secRow, .thirdRow, .fourthRow, .fifthRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.zero {
+    flex-grow: 2;
+}
